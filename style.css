@@ -1,0 +1,55 @@
+body {
+    background-color: #f8f8f8;
+}
+.link-header {
+    text-decoration: none;
+    color: rgb(21, 162, 197);
+    font-size: 25px;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+} 
+li {
+    list-style-type: none;
+}
+.product_header {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+    font-family: 'Courier New', Courier, monospace;
+}
+.product_brief {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+.product_specification {
+    color: rgb(25, 189, 211);
+    text-align: justify;
+    background-color: #3a3636;
+    border: #f509093d solid 2px;
+    border-radius: 15px;
+}
+.feedback_text,  .feedback_textarea{
+    height: 25px;
+    width: 500px;
+    font-size: 18px;
+    /* мне понравилась такая комбинация цветов, хочу везде использовать на сайте :) */
+    background-color: #3a3636;
+    color: rgb(25, 189, 211);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.feedback_textarea {
+    height: 200px;
+    width: 500px;
+}
+.product_image {
+    border: #f509093d solid 2px;
+}
+.catalog_link {
+    text-decoration: none;
+    color: rgb(25, 189, 211);
+    font-family: 'Courier New', Courier, monospace;
+}
