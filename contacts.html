@@ -4,22 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Koshkin Shop - магазин очков виртуальной реальности и VR игр</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <ul>
-            <li><a href="index.html">Главная</a></li>
-            <li><a href="catalog/catalog.html">Каталог</a></li>
-            <li><a href="contacts.html">Контакты</a></li>
+            <li><a href="index.html" class="link-header">Главная</a></li>
+            <li><a href="catalog/catalog.html" class="link-header">Каталог</a></li>
+            <li><a href="contacts.html" class="link-header">Контакты</a></li>
         </ul>
     </header>
     <hr>
     <h1>Напишите нам</h1>
     <form>
-        <input type="text" placeholder="Ваше имя" required> <br>
-        <input type="email" placeholder="Ваш e-mail" required> <br>
-        <input type="text" placeholder="Тема обращения"> <br>
-        <textarea placeholder="Текст обращения" required cols="30" rows="10"></textarea> <br>
+        <input type="text" placeholder="Ваше имя" required class="feedback_text"> <br>
+        <input type="email" placeholder="Ваш e-mail" required class="feedback_text"> <br>
+        <input type="text" placeholder="Тема обращения" class="feedback_text"> <br>
+        <textarea placeholder="Текст обращения" required class="feedback_textarea"></textarea> <br>
         <button type="submit">Отправить</button>
         <button type="reset">Заполнить заново</button>
     </form>
