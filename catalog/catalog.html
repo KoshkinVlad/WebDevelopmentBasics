@@ -3,33 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Koshkin Shop - магазин очков виртуальной реальности и VR игр</title>
+    <title>Koshkin Shop - Каталог</title>
     <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-    <header>
-        <ul>
-            <li><a href="../index.html" class="link-header">Главная</a></li>
-            <li><a href="catalog.html" class="link-header">Каталог</a></li>
-            <li><a href="../contacts.html" class="link-header">Контакты</a></li>
+    <header class="header">
+        <a href="../index.html"><img src="../img/site-logo.png" alt="Логотип сайта" class="header__logo"></a>
+        <ul class="header__list">
+            <li><a href="../index.html" class="header__link">Главная</a></li>
+            <li><a href="catalog.html" class="header__link">Каталог</a></li>
+            <li><a href="../contacts.html" class="header__link">Контакты</a></li>
         </ul>
     </header>
     <hr>
     <h1>Каталог</h1>
-    
-    <a href="product-lenovo.html" class="catalog_link">
-        <img src="../img/lenovo-explorer.png" alt="VR очки Lenovo Explorer" title="Lenovo Explorer" width="300"> <br>
-        Lenovo Explorer
-    </a> <br>
-
-    
-    <a href="product-valve.html" class="catalog_link">
-        <img src="../img/valve-index.jpg" alt="VR очки Valve Index" title="Valve Index" width="300"> <br>
-        Valve Index
-    </a>
+    <main class="catalog__main">
+        <div class="catalog__product">
+            <a href="product-lenovo.html" class="catalog_link">
+                <img src="../img/lenovo-explorer.png" alt="VR очки Lenovo Explorer" title="Lenovo Explorer" width="300"> <br>
+                Lenovo Explorer
+            </a>
+        </div>
+        <div class="catalog__product">
+            <a href="product-valve.html" class="catalog_link">
+                <img src="../img/valve-index.jpg" alt="VR очки Valve Index" title="Valve Index" width="300"> <br>
+                Valve Index
+            </a>
+        </div>
+    </main>
 
     <hr>
-    <footer>
+    <footer class="footer">
         &copy;Все права защищены
     </footer>
 </body>
